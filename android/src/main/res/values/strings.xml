@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loading">加载中...</string>
+    <string name="dialog_title">提示</string>
+    <string name="permisssion_hint">请您去设置-应用-APP-开启%1$s权限，以正常使用此功能</string>
+    <string name="goto_setting">去设置</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="permisssion_camera_audio">相机和录音</string>
+</resources>

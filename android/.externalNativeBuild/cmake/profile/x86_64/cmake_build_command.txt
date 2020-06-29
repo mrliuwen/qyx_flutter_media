@@ -1,0 +1,14 @@
+Executable : /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/zuoshuai/Desktop/qyx_flutter_media/android
+-B/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/profile/obj/x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147
+-DCMAKE_TOOLCHAIN_FILE=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
