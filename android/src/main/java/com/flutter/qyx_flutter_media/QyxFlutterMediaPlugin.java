@@ -92,7 +92,7 @@ public class QyxFlutterMediaPlugin implements MethodCallHandler,PluginRegistry.A
                                                 registrarG.activity(), CameraActivity.class);
                                         size.add(new ImageSize(240, 240, ".small"));
                                         size.add(new ImageSize(720, 720, ""));
-                                        getImageByCamera.putExtra("supportType",2);
+                                        getImageByCamera.putExtra("supportType",0);
                                         Bundle bundle = new Bundle();
                                         bundle.putSerializable("size", size);
                                         getImageByCamera.putExtras(bundle);
