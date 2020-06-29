@@ -79,18 +79,10 @@ public class QyxFlutterMediaPlugin implements MethodCallHandler,PluginRegistry.A
         if(resultCode == RESULT_OK) {
             final String recorderPath =  intent.getStringExtra("recorderPath");
             final String photoPath =  intent.getStringExtra("photoPath");
-            final int  time = intent.getIntExtra("time",0);
-            MediaMetadataRetriever mmr = new MediaMetadataRetriever();
-            mmr.setDataSource(recorderPath);
-            //获取第一帧图像的bitmap对象
-            Bitmap bitmap = mmr.getFrameAtTime();
-            final String screenshot_path = saveCropBitmap(bitmap);
             takeVideoResult.success(new HashMap(){
                 {
-                    put("cover_path",screenshot_path);
                     put("photo_path",photoPath);
                     put("video_path",recorderPath);
-                    put("time",time);
                 }
             });
         }

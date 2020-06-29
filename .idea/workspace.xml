@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a397353e-0588-4518-af33-19fd7a73fdeb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/qyx_flutter_media.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/qyx_flutter_media.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
       <updated>1593397680985</updated>
       <workItem from="1593397683388" duration="896000" />
       <workItem from="1593399052913" duration="825000" />
-      <workItem from="1593401554686" duration="101000" />
+      <workItem from="1593401554686" duration="570000" />
     </task>
     <servers />
   </component>
