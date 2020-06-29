@@ -61,17 +61,70 @@ public class QyxFlutterMediaPlugin implements MethodCallHandler,PluginRegistry.A
 
     public void takeVideo(Result result) {
         takeVideoResult =  result;
-        ArrayList<ImageSize> size = new ArrayList<ImageSize>();
-        Intent getImageByCamera = new Intent(
-                registrarG.activity(), CameraActivity.class);
-        size.add(new ImageSize(240, 240, ".small"));
-        size.add(new ImageSize(720, 720, ""));
-        getImageByCamera.putExtra("supportType",0);
-        Bundle bundle = new Bundle();
-        bundle.putSerializable("size", size);
-        getImageByCamera.putExtras(bundle);
-        registrarG.activity().startActivityForResult(getImageByCamera,0);
+        registrarG.addRequestPermissionsResultListener(delegate);
+
+        delegate.requestPermissions(new PermissionListener() {
+            @Override
+            public void onRequestPermissionsResult(boolean permissionGranted) {
+                if(!permissionGranted) {
+                    return;
+                }
+                delegate.requestPermissions(Manifest.permission.WRITE_EXTERNAL_STORAGE, new PermissionListener() {
+                    @Override
+                    public void onRequestPermissionsResult(boolean permissionGranted) {
+                        if(!permissionGranted) {
+                            return;
+                        }
+                        delegate.requestPermissions(Manifest.permission.RECORD_AUDIO, new PermissionListener() {
+                            @Override
+                            public void onRequestPermissionsResult(boolean permissionGranted) {
+                                if(!permissionGranted) {
+                                    return;
+                                }
+                                delegate.requestPermissions(Manifest.permission.READ_EXTERNAL_STORAGE, new PermissionListener() {
+                                    @Override
+                                    public void onRequestPermissionsResult(boolean permissionGranted) {
+                                        if(!permissionGranted) {
+                                            return;
+                                        }
+                                        ArrayList<ImageSize> size = new ArrayList<ImageSize>();
+                                        Intent getImageByCamera = new Intent(
+                                                registrarG.activity(), CameraActivity.class);
+                                        size.add(new ImageSize(240, 240, ".small"));
+                                        size.add(new ImageSize(720, 720, ""));
+                                        getImageByCamera.putExtra("supportType",2);
+                                        Bundle bundle = new Bundle();
+                                        bundle.putSerializable("size", size);
+                                        getImageByCamera.putExtras(bundle);
+                                        registrarG.activity().startActivityForResult(getImageByCamera,0);
+                                    }
+                                });
+                            }
+                        });
+                    }
+                });
+            }
+        });
+
+
+
+//    PermissionsUtil.requestPermissions(registrarG.activity(), registrarG.activity().getResources().getString(R.string.permisssion_camera_audio), new PermissionsUtil.PermisionResultListener() {
+//      @Override
+//      public void granted() {
+//        ArrayList<ImageSize> size = new ArrayList<ImageSize>();
+//        Intent getImageByCamera = new Intent(
+//                registrarG.activity(), CameraActivity.class);
+//        size.add(new ImageSize(240, 240, ".small"));
+//        size.add(new ImageSize(720, 720, ""));
+//        Bundle bundle = new Bundle();
+//        bundle.putSerializable("size", size);
+//        getImageByCamera.putExtras(bundle);
+//        registrarG.activity().startActivity(getImageByCamera);
+//      }
+//    }, Manifest.permission.CAMERA, Manifest.permission.RECORD_AUDIO);
+
     }
+
 
     @Override
     public boolean onActivityResult(int requestCode, int resultCode, Intent intent) {

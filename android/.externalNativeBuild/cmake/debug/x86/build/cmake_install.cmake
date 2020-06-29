@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv
+# Install script for directory: /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,15 +33,15 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/debug/x86/yuvconvert")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE PROGRAM FILES "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/debug/x86/yuvconvert")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/debug/x86/build/libyuv.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/debug/x86/build/libyuv.a")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/debug/obj/x86/libyuv.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/debug/obj/x86/libyuv.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libyuv.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libyuv.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -51,6 +51,6 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/include/")
 endif()
 

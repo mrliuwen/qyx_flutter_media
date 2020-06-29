@@ -13,4 +13,4 @@
 -- Could NOT find JPEG (missing:  JPEG_LIBRARY JPEG_INCLUDE_DIR) 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86
+-- Build files have been written to: /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86

@@ -39,7 +39,7 @@ build list_install_components: phony
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -48,7 +48,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -H/Users/zuoshuai/Desktop/qyx_flutter_media/android -B/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a
+  COMMAND = cd /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -H/Users/zuoshuai/qyx_flutter_media/android -B/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -58,7 +58,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for package_source
 
 build CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cpack --config ./CPackSourceConfig.cmake /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a/CPackSourceConfig.cmake
+  COMMAND = cd /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cpack --config ./CPackSourceConfig.cmake /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a/CPackSourceConfig.cmake
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -68,7 +68,7 @@ build package_source: phony CMakeFiles/package_source.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cd /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -78,7 +78,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cd /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -88,7 +88,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cd /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -98,7 +98,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 # Utility command for package
 
 build CMakeFiles/package.util: CUSTOM_COMMAND all
-  COMMAND = cd /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cpack --config ./CPackConfig.cmake
+  COMMAND = cd /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a && /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cpack --config ./CPackConfig.cmake
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -116,7 +116,7 @@ build CMakeFiles/yuvutil.dir/src/main/jni/YuvJni.cpp.o: CXX_COMPILER__yuvutil ..
   DEP_FILE = CMakeFiles/yuvutil.dir/src/main/jni/YuvJni.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/YuvJni.cpp
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/YuvJni.cpp
   OBJECT_DIR = CMakeFiles/yuvutil.dir
   OBJECT_FILE_DIR = CMakeFiles/yuvutil.dir/src/main/jni
 
@@ -125,9 +125,9 @@ build CMakeFiles/yuvutil.dir/src/main/jni/YuvJni.cpp.o: CXX_COMPILER__yuvutil ..
 
 
 #############################################
-# Link the shared library /Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuvutil.so
+# Link the shared library /Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuvutil.so
 
-build /Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuvutil.so: CXX_SHARED_LIBRARY_LINKER__yuvutil CMakeFiles/yuvutil.dir/src/main/jni/YuvJni.cpp.o | /Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so build/libyuv.a || build/libyuv.a
+build /Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuvutil.so: CXX_SHARED_LIBRARY_LINKER__yuvutil CMakeFiles/yuvutil.dir/src/main/jni/YuvJni.cpp.o | /Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so build/libyuv.a || build/libyuv.a
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = -llog build/libyuv.a -latomic -lm
@@ -136,11 +136,11 @@ build /Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/
   PRE_LINK = :
   SONAME = libyuvutil.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_FILE = /Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuvutil.so
+  TARGET_FILE = /Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuvutil.so
   TARGET_PDB = yuvutil.so.dbg
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/zuoshuai/Desktop/qyx_flutter_media/android/CMakeLists.txt
+# /Users/zuoshuai/qyx_flutter_media/android/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -155,7 +155,7 @@ build build/CMakeFiles/yuvconvert.dir/util/yuvconvert.cc.o: CXX_COMPILER__yuvcon
   DEP_FILE = build/CMakeFiles/yuvconvert.dir/util/yuvconvert.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIE
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/util/yuvconvert.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/util/yuvconvert.cc
   OBJECT_DIR = build/CMakeFiles/yuvconvert.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuvconvert.dir/util
 
@@ -183,7 +183,7 @@ build build/CMakeFiles/yuv_shared.dir/source/compare.cc.o: CXX_COMPILER__yuv_sha
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/compare.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/compare_common.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/compare_common.cc
@@ -191,7 +191,7 @@ build build/CMakeFiles/yuv_shared.dir/source/compare_common.cc.o: CXX_COMPILER__
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/compare_common.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_common.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_common.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/compare_gcc.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/compare_gcc.cc
@@ -199,7 +199,7 @@ build build/CMakeFiles/yuv_shared.dir/source/compare_gcc.cc.o: CXX_COMPILER__yuv
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/compare_gcc.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_gcc.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_gcc.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/compare_msa.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/compare_msa.cc
@@ -207,7 +207,7 @@ build build/CMakeFiles/yuv_shared.dir/source/compare_msa.cc.o: CXX_COMPILER__yuv
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/compare_msa.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_msa.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_msa.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/compare_neon.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/compare_neon.cc
@@ -215,7 +215,7 @@ build build/CMakeFiles/yuv_shared.dir/source/compare_neon.cc.o: CXX_COMPILER__yu
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/compare_neon.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_neon.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_neon.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/compare_neon64.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/compare_neon64.cc
@@ -223,7 +223,7 @@ build build/CMakeFiles/yuv_shared.dir/source/compare_neon64.cc.o: CXX_COMPILER__
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/compare_neon64.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_neon64.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_neon64.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/compare_win.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/compare_win.cc
@@ -231,7 +231,7 @@ build build/CMakeFiles/yuv_shared.dir/source/compare_win.cc.o: CXX_COMPILER__yuv
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/compare_win.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_win.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_win.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/convert.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/convert.cc
@@ -239,7 +239,7 @@ build build/CMakeFiles/yuv_shared.dir/source/convert.cc.o: CXX_COMPILER__yuv_sha
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/convert.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/convert_argb.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/convert_argb.cc
@@ -247,7 +247,7 @@ build build/CMakeFiles/yuv_shared.dir/source/convert_argb.cc.o: CXX_COMPILER__yu
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/convert_argb.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_argb.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_argb.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/convert_from.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/convert_from.cc
@@ -255,7 +255,7 @@ build build/CMakeFiles/yuv_shared.dir/source/convert_from.cc.o: CXX_COMPILER__yu
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/convert_from.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_from.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_from.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/convert_from_argb.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/convert_from_argb.cc
@@ -263,7 +263,7 @@ build build/CMakeFiles/yuv_shared.dir/source/convert_from_argb.cc.o: CXX_COMPILE
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/convert_from_argb.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_from_argb.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_from_argb.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/convert_jpeg.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/convert_jpeg.cc
@@ -271,7 +271,7 @@ build build/CMakeFiles/yuv_shared.dir/source/convert_jpeg.cc.o: CXX_COMPILER__yu
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/convert_jpeg.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_jpeg.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_jpeg.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/convert_to_argb.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/convert_to_argb.cc
@@ -279,7 +279,7 @@ build build/CMakeFiles/yuv_shared.dir/source/convert_to_argb.cc.o: CXX_COMPILER_
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/convert_to_argb.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_to_argb.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_to_argb.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/convert_to_i420.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/convert_to_i420.cc
@@ -287,7 +287,7 @@ build build/CMakeFiles/yuv_shared.dir/source/convert_to_i420.cc.o: CXX_COMPILER_
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/convert_to_i420.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_to_i420.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_to_i420.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/cpu_id.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/cpu_id.cc
@@ -295,7 +295,7 @@ build build/CMakeFiles/yuv_shared.dir/source/cpu_id.cc.o: CXX_COMPILER__yuv_shar
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/cpu_id.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/cpu_id.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/cpu_id.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/mjpeg_decoder.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/mjpeg_decoder.cc
@@ -303,7 +303,7 @@ build build/CMakeFiles/yuv_shared.dir/source/mjpeg_decoder.cc.o: CXX_COMPILER__y
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/mjpeg_decoder.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/mjpeg_decoder.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/mjpeg_decoder.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/mjpeg_validate.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/mjpeg_validate.cc
@@ -311,7 +311,7 @@ build build/CMakeFiles/yuv_shared.dir/source/mjpeg_validate.cc.o: CXX_COMPILER__
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/mjpeg_validate.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/mjpeg_validate.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/mjpeg_validate.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/planar_functions.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/planar_functions.cc
@@ -319,7 +319,7 @@ build build/CMakeFiles/yuv_shared.dir/source/planar_functions.cc.o: CXX_COMPILER
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/planar_functions.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/planar_functions.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/planar_functions.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/rotate.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/rotate.cc
@@ -327,7 +327,7 @@ build build/CMakeFiles/yuv_shared.dir/source/rotate.cc.o: CXX_COMPILER__yuv_shar
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/rotate.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/rotate_any.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/rotate_any.cc
@@ -335,7 +335,7 @@ build build/CMakeFiles/yuv_shared.dir/source/rotate_any.cc.o: CXX_COMPILER__yuv_
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/rotate_any.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_any.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_any.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/rotate_argb.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/rotate_argb.cc
@@ -343,7 +343,7 @@ build build/CMakeFiles/yuv_shared.dir/source/rotate_argb.cc.o: CXX_COMPILER__yuv
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/rotate_argb.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_argb.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_argb.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/rotate_common.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/rotate_common.cc
@@ -351,7 +351,7 @@ build build/CMakeFiles/yuv_shared.dir/source/rotate_common.cc.o: CXX_COMPILER__y
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/rotate_common.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_common.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_common.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/rotate_gcc.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/rotate_gcc.cc
@@ -359,7 +359,7 @@ build build/CMakeFiles/yuv_shared.dir/source/rotate_gcc.cc.o: CXX_COMPILER__yuv_
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/rotate_gcc.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_gcc.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_gcc.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/rotate_msa.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/rotate_msa.cc
@@ -367,7 +367,7 @@ build build/CMakeFiles/yuv_shared.dir/source/rotate_msa.cc.o: CXX_COMPILER__yuv_
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/rotate_msa.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_msa.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_msa.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/rotate_neon.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/rotate_neon.cc
@@ -375,7 +375,7 @@ build build/CMakeFiles/yuv_shared.dir/source/rotate_neon.cc.o: CXX_COMPILER__yuv
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/rotate_neon.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_neon.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_neon.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/rotate_neon64.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/rotate_neon64.cc
@@ -383,7 +383,7 @@ build build/CMakeFiles/yuv_shared.dir/source/rotate_neon64.cc.o: CXX_COMPILER__y
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/rotate_neon64.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_neon64.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_neon64.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/rotate_win.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/rotate_win.cc
@@ -391,7 +391,7 @@ build build/CMakeFiles/yuv_shared.dir/source/rotate_win.cc.o: CXX_COMPILER__yuv_
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/rotate_win.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_win.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_win.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/row_any.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/row_any.cc
@@ -399,7 +399,7 @@ build build/CMakeFiles/yuv_shared.dir/source/row_any.cc.o: CXX_COMPILER__yuv_sha
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/row_any.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_any.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_any.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/row_common.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/row_common.cc
@@ -407,7 +407,7 @@ build build/CMakeFiles/yuv_shared.dir/source/row_common.cc.o: CXX_COMPILER__yuv_
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/row_common.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_common.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_common.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/row_gcc.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/row_gcc.cc
@@ -415,7 +415,7 @@ build build/CMakeFiles/yuv_shared.dir/source/row_gcc.cc.o: CXX_COMPILER__yuv_sha
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/row_gcc.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_gcc.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_gcc.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/row_msa.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/row_msa.cc
@@ -423,7 +423,7 @@ build build/CMakeFiles/yuv_shared.dir/source/row_msa.cc.o: CXX_COMPILER__yuv_sha
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/row_msa.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_msa.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_msa.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/row_neon.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/row_neon.cc
@@ -431,7 +431,7 @@ build build/CMakeFiles/yuv_shared.dir/source/row_neon.cc.o: CXX_COMPILER__yuv_sh
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/row_neon.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_neon.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_neon.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/row_neon64.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/row_neon64.cc
@@ -439,7 +439,7 @@ build build/CMakeFiles/yuv_shared.dir/source/row_neon64.cc.o: CXX_COMPILER__yuv_
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/row_neon64.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_neon64.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_neon64.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/row_win.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/row_win.cc
@@ -447,7 +447,7 @@ build build/CMakeFiles/yuv_shared.dir/source/row_win.cc.o: CXX_COMPILER__yuv_sha
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/row_win.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_win.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_win.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/scale.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/scale.cc
@@ -455,7 +455,7 @@ build build/CMakeFiles/yuv_shared.dir/source/scale.cc.o: CXX_COMPILER__yuv_share
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/scale.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/scale_any.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/scale_any.cc
@@ -463,7 +463,7 @@ build build/CMakeFiles/yuv_shared.dir/source/scale_any.cc.o: CXX_COMPILER__yuv_s
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/scale_any.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_any.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_any.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/scale_argb.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/scale_argb.cc
@@ -471,7 +471,7 @@ build build/CMakeFiles/yuv_shared.dir/source/scale_argb.cc.o: CXX_COMPILER__yuv_
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/scale_argb.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_argb.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_argb.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/scale_common.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/scale_common.cc
@@ -479,7 +479,7 @@ build build/CMakeFiles/yuv_shared.dir/source/scale_common.cc.o: CXX_COMPILER__yu
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/scale_common.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_common.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_common.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/scale_gcc.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/scale_gcc.cc
@@ -487,7 +487,7 @@ build build/CMakeFiles/yuv_shared.dir/source/scale_gcc.cc.o: CXX_COMPILER__yuv_s
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/scale_gcc.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_gcc.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_gcc.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/scale_msa.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/scale_msa.cc
@@ -495,7 +495,7 @@ build build/CMakeFiles/yuv_shared.dir/source/scale_msa.cc.o: CXX_COMPILER__yuv_s
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/scale_msa.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_msa.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_msa.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/scale_neon.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/scale_neon.cc
@@ -503,7 +503,7 @@ build build/CMakeFiles/yuv_shared.dir/source/scale_neon.cc.o: CXX_COMPILER__yuv_
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/scale_neon.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_neon.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_neon.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/scale_neon64.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/scale_neon64.cc
@@ -511,7 +511,7 @@ build build/CMakeFiles/yuv_shared.dir/source/scale_neon64.cc.o: CXX_COMPILER__yu
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/scale_neon64.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_neon64.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_neon64.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/scale_win.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/scale_win.cc
@@ -519,7 +519,7 @@ build build/CMakeFiles/yuv_shared.dir/source/scale_win.cc.o: CXX_COMPILER__yuv_s
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/scale_win.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_win.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_win.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 build build/CMakeFiles/yuv_shared.dir/source/video_common.cc.o: CXX_COMPILER__yuv_shared ../../../../src/main/jni/libyuv/source/video_common.cc
@@ -527,7 +527,7 @@ build build/CMakeFiles/yuv_shared.dir/source/video_common.cc.o: CXX_COMPILER__yu
   DEP_FILE = build/CMakeFiles/yuv_shared.dir/source/video_common.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/video_common.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/video_common.cc
   OBJECT_DIR = build/CMakeFiles/yuv_shared.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv_shared.dir/source
 
@@ -536,9 +536,9 @@ build build/CMakeFiles/yuv_shared.dir/source/video_common.cc.o: CXX_COMPILER__yu
 
 
 #############################################
-# Link the shared library /Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuv.so
+# Link the shared library /Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuv.so
 
-build /Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuv.so: CXX_SHARED_LIBRARY_LINKER__yuv_shared build/CMakeFiles/yuv_shared.dir/source/compare.cc.o build/CMakeFiles/yuv_shared.dir/source/compare_common.cc.o build/CMakeFiles/yuv_shared.dir/source/compare_gcc.cc.o build/CMakeFiles/yuv_shared.dir/source/compare_msa.cc.o build/CMakeFiles/yuv_shared.dir/source/compare_neon.cc.o build/CMakeFiles/yuv_shared.dir/source/compare_neon64.cc.o build/CMakeFiles/yuv_shared.dir/source/compare_win.cc.o build/CMakeFiles/yuv_shared.dir/source/convert.cc.o build/CMakeFiles/yuv_shared.dir/source/convert_argb.cc.o build/CMakeFiles/yuv_shared.dir/source/convert_from.cc.o build/CMakeFiles/yuv_shared.dir/source/convert_from_argb.cc.o build/CMakeFiles/yuv_shared.dir/source/convert_jpeg.cc.o build/CMakeFiles/yuv_shared.dir/source/convert_to_argb.cc.o build/CMakeFiles/yuv_shared.dir/source/convert_to_i420.cc.o build/CMakeFiles/yuv_shared.dir/source/cpu_id.cc.o build/CMakeFiles/yuv_shared.dir/source/mjpeg_decoder.cc.o build/CMakeFiles/yuv_shared.dir/source/mjpeg_validate.cc.o build/CMakeFiles/yuv_shared.dir/source/planar_functions.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate_any.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate_argb.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate_common.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate_gcc.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate_msa.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate_neon.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate_neon64.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate_win.cc.o build/CMakeFiles/yuv_shared.dir/source/row_any.cc.o build/CMakeFiles/yuv_shared.dir/source/row_common.cc.o build/CMakeFiles/yuv_shared.dir/source/row_gcc.cc.o build/CMakeFiles/yuv_shared.dir/source/row_msa.cc.o build/CMakeFiles/yuv_shared.dir/source/row_neon.cc.o build/CMakeFiles/yuv_shared.dir/source/row_neon64.cc.o build/CMakeFiles/yuv_shared.dir/source/row_win.cc.o build/CMakeFiles/yuv_shared.dir/source/scale.cc.o build/CMakeFiles/yuv_shared.dir/source/scale_any.cc.o build/CMakeFiles/yuv_shared.dir/source/scale_argb.cc.o build/CMakeFiles/yuv_shared.dir/source/scale_common.cc.o build/CMakeFiles/yuv_shared.dir/source/scale_gcc.cc.o build/CMakeFiles/yuv_shared.dir/source/scale_msa.cc.o build/CMakeFiles/yuv_shared.dir/source/scale_neon.cc.o build/CMakeFiles/yuv_shared.dir/source/scale_neon64.cc.o build/CMakeFiles/yuv_shared.dir/source/scale_win.cc.o build/CMakeFiles/yuv_shared.dir/source/video_common.cc.o
+build /Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuv.so: CXX_SHARED_LIBRARY_LINKER__yuv_shared build/CMakeFiles/yuv_shared.dir/source/compare.cc.o build/CMakeFiles/yuv_shared.dir/source/compare_common.cc.o build/CMakeFiles/yuv_shared.dir/source/compare_gcc.cc.o build/CMakeFiles/yuv_shared.dir/source/compare_msa.cc.o build/CMakeFiles/yuv_shared.dir/source/compare_neon.cc.o build/CMakeFiles/yuv_shared.dir/source/compare_neon64.cc.o build/CMakeFiles/yuv_shared.dir/source/compare_win.cc.o build/CMakeFiles/yuv_shared.dir/source/convert.cc.o build/CMakeFiles/yuv_shared.dir/source/convert_argb.cc.o build/CMakeFiles/yuv_shared.dir/source/convert_from.cc.o build/CMakeFiles/yuv_shared.dir/source/convert_from_argb.cc.o build/CMakeFiles/yuv_shared.dir/source/convert_jpeg.cc.o build/CMakeFiles/yuv_shared.dir/source/convert_to_argb.cc.o build/CMakeFiles/yuv_shared.dir/source/convert_to_i420.cc.o build/CMakeFiles/yuv_shared.dir/source/cpu_id.cc.o build/CMakeFiles/yuv_shared.dir/source/mjpeg_decoder.cc.o build/CMakeFiles/yuv_shared.dir/source/mjpeg_validate.cc.o build/CMakeFiles/yuv_shared.dir/source/planar_functions.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate_any.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate_argb.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate_common.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate_gcc.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate_msa.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate_neon.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate_neon64.cc.o build/CMakeFiles/yuv_shared.dir/source/rotate_win.cc.o build/CMakeFiles/yuv_shared.dir/source/row_any.cc.o build/CMakeFiles/yuv_shared.dir/source/row_common.cc.o build/CMakeFiles/yuv_shared.dir/source/row_gcc.cc.o build/CMakeFiles/yuv_shared.dir/source/row_msa.cc.o build/CMakeFiles/yuv_shared.dir/source/row_neon.cc.o build/CMakeFiles/yuv_shared.dir/source/row_neon64.cc.o build/CMakeFiles/yuv_shared.dir/source/row_win.cc.o build/CMakeFiles/yuv_shared.dir/source/scale.cc.o build/CMakeFiles/yuv_shared.dir/source/scale_any.cc.o build/CMakeFiles/yuv_shared.dir/source/scale_argb.cc.o build/CMakeFiles/yuv_shared.dir/source/scale_common.cc.o build/CMakeFiles/yuv_shared.dir/source/scale_gcc.cc.o build/CMakeFiles/yuv_shared.dir/source/scale_msa.cc.o build/CMakeFiles/yuv_shared.dir/source/scale_neon.cc.o build/CMakeFiles/yuv_shared.dir/source/scale_neon64.cc.o build/CMakeFiles/yuv_shared.dir/source/scale_win.cc.o build/CMakeFiles/yuv_shared.dir/source/video_common.cc.o
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = -latomic -lm
@@ -547,7 +547,7 @@ build /Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/
   PRE_LINK = :
   SONAME = libyuv.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_FILE = /Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuv.so
+  TARGET_FILE = /Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuv.so
   TARGET_PDB = yuv.so.dbg
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target yuv
@@ -556,308 +556,308 @@ build build/CMakeFiles/yuv.dir/source/compare.cc.o: CXX_COMPILER__yuv ../../../.
   DEP_FILE = build/CMakeFiles/yuv.dir/source/compare.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/compare_common.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/compare_common.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/compare_common.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_common.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_common.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/compare_gcc.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/compare_gcc.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/compare_gcc.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_gcc.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_gcc.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/compare_msa.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/compare_msa.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/compare_msa.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_msa.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_msa.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/compare_neon.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/compare_neon.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/compare_neon.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_neon.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_neon.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/compare_neon64.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/compare_neon64.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/compare_neon64.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_neon64.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_neon64.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/compare_win.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/compare_win.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/compare_win.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_win.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_win.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/convert.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/convert.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/convert.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/convert_argb.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/convert_argb.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/convert_argb.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_argb.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_argb.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/convert_from.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/convert_from.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/convert_from.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_from.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_from.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/convert_from_argb.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/convert_from_argb.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/convert_from_argb.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_from_argb.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_from_argb.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/convert_jpeg.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/convert_jpeg.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/convert_jpeg.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_jpeg.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_jpeg.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/convert_to_argb.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/convert_to_argb.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/convert_to_argb.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_to_argb.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_to_argb.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/convert_to_i420.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/convert_to_i420.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/convert_to_i420.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_to_i420.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_to_i420.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/cpu_id.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/cpu_id.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/cpu_id.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/cpu_id.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/cpu_id.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/mjpeg_decoder.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/mjpeg_decoder.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/mjpeg_decoder.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/mjpeg_decoder.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/mjpeg_decoder.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/mjpeg_validate.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/mjpeg_validate.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/mjpeg_validate.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/mjpeg_validate.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/mjpeg_validate.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/planar_functions.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/planar_functions.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/planar_functions.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/planar_functions.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/planar_functions.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/rotate.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/rotate.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/rotate.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/rotate_any.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/rotate_any.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/rotate_any.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_any.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_any.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/rotate_argb.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/rotate_argb.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/rotate_argb.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_argb.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_argb.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/rotate_common.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/rotate_common.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/rotate_common.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_common.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_common.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/rotate_gcc.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/rotate_gcc.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/rotate_gcc.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_gcc.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_gcc.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/rotate_msa.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/rotate_msa.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/rotate_msa.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_msa.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_msa.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/rotate_neon.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/rotate_neon.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/rotate_neon.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_neon.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_neon.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/rotate_neon64.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/rotate_neon64.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/rotate_neon64.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_neon64.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_neon64.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/rotate_win.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/rotate_win.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/rotate_win.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_win.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_win.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/row_any.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/row_any.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/row_any.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_any.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_any.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/row_common.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/row_common.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/row_common.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_common.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_common.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/row_gcc.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/row_gcc.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/row_gcc.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_gcc.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_gcc.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/row_msa.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/row_msa.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/row_msa.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_msa.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_msa.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/row_neon.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/row_neon.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/row_neon.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_neon.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_neon.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/row_neon64.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/row_neon64.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/row_neon64.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_neon64.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_neon64.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/row_win.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/row_win.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/row_win.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_win.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_win.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/scale.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/scale.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/scale.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/scale_any.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/scale_any.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/scale_any.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_any.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_any.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/scale_argb.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/scale_argb.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/scale_argb.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_argb.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_argb.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/scale_common.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/scale_common.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/scale_common.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_common.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_common.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/scale_gcc.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/scale_gcc.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/scale_gcc.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_gcc.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_gcc.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/scale_msa.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/scale_msa.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/scale_msa.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_msa.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_msa.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/scale_neon.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/scale_neon.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/scale_neon.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_neon.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_neon.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/scale_neon64.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/scale_neon64.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/scale_neon64.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_neon64.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_neon64.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/scale_win.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/scale_win.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/scale_win.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_win.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_win.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 build build/CMakeFiles/yuv.dir/source/video_common.cc.o: CXX_COMPILER__yuv ../../../../src/main/jni/libyuv/source/video_common.cc
   DEP_FILE = build/CMakeFiles/yuv.dir/source/video_common.cc.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   INCLUDES = -I../../../../src/main/jni/libyuv/include
-  IN_ABS = /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/video_common.cc
+  IN_ABS = /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/video_common.cc
   OBJECT_DIR = build/CMakeFiles/yuv.dir
   OBJECT_FILE_DIR = build/CMakeFiles/yuv.dir/source
 
@@ -879,12 +879,12 @@ build build/libyuv.a: CXX_STATIC_LIBRARY_LINKER__yuv build/CMakeFiles/yuv.dir/so
 # Target aliases.
 
 build libyuv.a: phony build/libyuv.a
-build libyuv.so: phony /Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuv.so
-build libyuvutil.so: phony /Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuvutil.so
+build libyuv.so: phony /Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuv.so
+build libyuvutil.so: phony /Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuvutil.so
 build yuv: phony build/libyuv.a
-build yuv_shared: phony /Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuv.so
+build yuv_shared: phony /Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuv.so
 build yuvconvert: phony build/yuvconvert
-build yuvutil: phony /Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuvutil.so
+build yuvutil: phony /Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuvutil.so
 # =============================================================================
 # Folder targets.
 
@@ -892,7 +892,7 @@ build yuvutil: phony /Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx
 # =============================================================================
 
 #############################################
-# Folder: /Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv
+# Folder: /Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv
 
 build  src/main/jni/libyuv/all: phony yuvconvert yuv_shared yuv
 # =============================================================================
@@ -902,7 +902,7 @@ build  src/main/jni/libyuv/all: phony yuvconvert yuv_shared yuv
 #############################################
 # The main all target.
 
-build all: phony /Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuvutil.so build/yuvconvert /Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuv.so build/libyuv.a
+build all: phony /Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuvutil.so build/yuvconvert /Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuv.so build/libyuv.a
 
 #############################################
 # Make the all target the default.

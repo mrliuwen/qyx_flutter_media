@@ -2,12 +2,12 @@
 {
 	"buildFiles" : 
 	[
-		"/Users/zuoshuai/Desktop/qyx_flutter_media/android/CMakeLists.txt",
-		"/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/CMakeLists.txt"
+		"/Users/zuoshuai/qyx_flutter_media/android/CMakeLists.txt",
+		"/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/CMakeLists.txt"
 	],
 	"cleanCommands" : 
 	[
-		"/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target clean"
+		"/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target clean"
 	],
 	"cppFileExtensions" : [ "cc", "cpp" ],
 	"libraries" : 
@@ -16,588 +16,588 @@
 		{
 			"abi" : "x86",
 			"artifactName" : "yuv",
-			"buildCommand" : "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target yuv",
+			"buildCommand" : "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target yuv",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_common.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_common.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_gcc.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_gcc.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_msa.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_msa.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_neon.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_neon.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_neon64.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_neon64.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_win.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_win.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_argb.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_argb.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_from.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_from.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_from_argb.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_from_argb.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_jpeg.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_jpeg.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_to_argb.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_to_argb.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_to_i420.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_to_i420.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/cpu_id.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/cpu_id.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/mjpeg_decoder.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/mjpeg_decoder.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/mjpeg_validate.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/mjpeg_validate.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/planar_functions.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/planar_functions.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_any.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_any.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_argb.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_argb.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_common.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_common.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_gcc.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_gcc.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_msa.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_msa.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_neon.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_neon.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_neon64.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_neon64.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_win.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_win.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_any.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_any.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_common.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_common.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_gcc.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_gcc.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_msa.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_msa.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_neon.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_neon.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_neon64.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_neon64.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_win.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_win.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_any.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_any.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_argb.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_argb.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_common.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_common.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_gcc.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_gcc.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_msa.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_msa.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_neon.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_neon.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_neon64.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_neon64.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_win.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_win.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/video_common.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/video_common.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				}
 			],
-			"output" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86/build/libyuv.a",
+			"output" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86/build/libyuv.a",
 			"toolchain" : "13858344508074827209"
 		},
 		"yuv_shared-Debug-x86" : 
 		{
 			"abi" : "x86",
 			"artifactName" : "yuv_shared",
-			"buildCommand" : "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target yuv_shared",
+			"buildCommand" : "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target yuv_shared",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_common.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_common.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_gcc.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_gcc.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_msa.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_msa.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_neon.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_neon.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_neon64.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_neon64.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_win.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/compare_win.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_argb.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_argb.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_from.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_from.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_from_argb.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_from_argb.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_jpeg.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_jpeg.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_to_argb.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_to_argb.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_to_i420.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/convert_to_i420.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/cpu_id.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/cpu_id.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/mjpeg_decoder.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/mjpeg_decoder.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/mjpeg_validate.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/mjpeg_validate.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/planar_functions.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/planar_functions.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_any.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_any.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_argb.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_argb.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_common.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_common.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_gcc.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_gcc.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_msa.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_msa.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_neon.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_neon.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_neon64.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_neon64.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_win.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/rotate_win.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_any.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_any.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_common.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_common.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_gcc.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_gcc.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_msa.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_msa.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_neon.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_neon.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_neon64.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_neon64.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/row_win.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/row_win.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_any.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_any.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_argb.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_argb.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_common.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_common.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_gcc.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_gcc.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_msa.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_msa.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_neon.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_neon.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_neon64.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_neon64.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_win.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/scale_win.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				},
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuv_shared_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/source/video_common.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/source/video_common.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				}
 			],
-			"output" : "/Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/profile/obj/x86/libyuv.so",
+			"output" : "/Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/profile/obj/x86/libyuv.so",
 			"toolchain" : "13858344508074827209"
 		},
 		"yuvconvert-Debug-x86" : 
 		{
 			"abi" : "x86",
 			"artifactName" : "yuvconvert",
-			"buildCommand" : "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target yuvconvert",
+			"buildCommand" : "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target yuvconvert",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIE    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/util/yuvconvert.cc",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/util/yuvconvert.cc",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				}
 			],
-			"output" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86/build/yuvconvert",
+			"output" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86/build/yuvconvert",
 			"toolchain" : "13858344508074827209"
 		},
 		"yuvutil-Debug-x86" : 
 		{
 			"abi" : "x86",
 			"artifactName" : "yuvutil",
-			"buildCommand" : "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target yuvutil",
+			"buildCommand" : "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target yuvutil",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
 					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zuoshuai/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dyuvutil_EXPORTS -I../../../../src/main/jni/libyuv/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/YuvJni.cpp",
-					"workingDirectory" : "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
+					"src" : "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/YuvJni.cpp",
+					"workingDirectory" : "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86"
 				}
 			],
-			"output" : "/Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/profile/obj/x86/libyuvutil.so",
+			"output" : "/Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/profile/obj/x86/libyuvutil.so",
 			"toolchain" : "13858344508074827209"
 		}
 	},

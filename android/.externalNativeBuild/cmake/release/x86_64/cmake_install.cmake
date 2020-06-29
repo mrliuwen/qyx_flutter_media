@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zuoshuai/Desktop/qyx_flutter_media/android
+# Install script for directory: /Users/zuoshuai/qyx_flutter_media/android
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64/build/cmake_install.cmake")
+  include("/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64/build/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

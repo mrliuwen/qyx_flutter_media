@@ -99,7 +99,7 @@ rule CXX_STATIC_LIBRARY_LINKER__yuv
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -H/Users/zuoshuai/Desktop/qyx_flutter_media/android -B/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/debug/x86_64
+  command = /Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -H/Users/zuoshuai/qyx_flutter_media/android -B/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/debug/x86_64
   description = Re-running CMake...
   generator = 1
 

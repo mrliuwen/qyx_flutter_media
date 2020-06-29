@@ -1,35 +1,35 @@
 {
   "buildFiles": [
-    "/Users/zuoshuai/Desktop/qyx_flutter_media/android/CMakeLists.txt",
-    "/Users/zuoshuai/Desktop/qyx_flutter_media/android/src/main/jni/libyuv/CMakeLists.txt"
+    "/Users/zuoshuai/qyx_flutter_media/android/CMakeLists.txt",
+    "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target clean"
+    "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target clean"
   ],
   "libraries": {
     "yuv-Debug-x86": {
       "artifactName": "yuv",
-      "buildCommand": "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target yuv",
+      "buildCommand": "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target yuv",
       "abi": "x86",
-      "output": "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86/build/libyuv.a"
+      "output": "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86/build/libyuv.a"
     },
     "yuv_shared-Debug-x86": {
       "artifactName": "yuv_shared",
-      "buildCommand": "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target yuv_shared",
+      "buildCommand": "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target yuv_shared",
       "abi": "x86",
-      "output": "/Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/profile/obj/x86/libyuv.so"
+      "output": "/Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/profile/obj/x86/libyuv.so"
     },
     "yuvconvert-Debug-x86": {
       "artifactName": "yuvconvert",
-      "buildCommand": "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target yuvconvert",
+      "buildCommand": "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target yuvconvert",
       "abi": "x86",
-      "output": "/Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86/build/yuvconvert"
+      "output": "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86/build/yuvconvert"
     },
     "yuvutil-Debug-x86": {
       "artifactName": "yuvutil",
-      "buildCommand": "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/Desktop/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target yuvutil",
+      "buildCommand": "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/profile/x86 --target yuvutil",
       "abi": "x86",
-      "output": "/Users/zuoshuai/Desktop/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/profile/obj/x86/libyuvutil.so"
+      "output": "/Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/profile/obj/x86/libyuvutil.so"
     }
   }
 }
