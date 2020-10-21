@@ -1,0 +1,462 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "D:/myProject/qyx_flutter_media/android",
+  "buildDirectory": "D:/myProject/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DANDROID_ABI\u003dx86_64",
+    "-DANDROID_PLATFORM\u003dandroid-21",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\myProject\\qyx_flutter_media\\android\\build\\intermediates\\cmake\\release\\obj\\x86_64",
+    "-DCMAKE_BUILD_TYPE\u003dRelease",
+    "-DANDROID_NDK\u003dC:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk-bundle",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64",
+    "-DCMAKE_SYSTEM_VERSION\u003d21",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_ANDROID_NDK\u003dC:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk-bundle",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "-G Ninja",
+    "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMAKE SERVER: Check for working C compiler: C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":33,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+CMAKE SERVER: Check for working C compiler: C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":65,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":96,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":126,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":155,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+CMAKE SERVER: Check for working CXX compiler: C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":184,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+CMAKE SERVER: Check for working CXX compiler: C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":211,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":237,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":262,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":287,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":311,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":334,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Could NOT find JPEG (missing: JPEG_LIBRARY JPEG_INCLUDE_DIR) ","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Could NOT find JPEG (missing: JPEG_LIBRARY JPEG_INCLUDE_DIR) 
+CMAKE SERVER: Could NOT find JPEG (missing: JPEG_LIBRARY JPEG_INCLUDE_DIR) 
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning (dev) at src/main/jni/libyuv/CMakeLists.txt:45 (if):\n  Policy CMP0064 is not set: Support new TEST if() operator.  Run \"cmake\n  --help-policy CMP0064\" for policy details.  Use the cmake_policy command to\n  set the policy and suppress this warning.\n\n  TEST will be interpreted as an operator when the policy is set to NEW.\n  Since the policy is not set the OLD behavior will be used.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning (dev) at src/main/jni/libyuv/CMakeLists.txt:45 (if):
+  Policy CMP0064 is not set: Support new TEST if() operator.  Run "cmake
+  --help-policy CMP0064" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  TEST will be interpreted as an operator when the policy is set to NEW.
+  Since the policy is not set the OLD behavior will be used.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMAKE SERVER: CMake Warning (dev) at src/main/jni/libyuv/CMakeLists.txt:45 (if):
+  Policy CMP0064 is not set: Support new TEST if() operator.  Run "cmake
+  --help-policy CMP0064" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  TEST will be interpreted as an operator when the policy is set to NEW.
+  Since the policy is not set the OLD behavior will be used.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Building ver.: 0.0.","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Building ver.: 0.0.
+CMAKE SERVER: Building ver.: 0.0.
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Packaging for: amd-64","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Packaging for: amd-64
+CMAKE SERVER: Packaging for: amd-64
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":950,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"dirty","type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"D:/myProject/qyx_flutter_media/android/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"D:/myProject/qyx_flutter_media/android/src/main/jni/libyuv/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"D:/myProject/qyx_flutter_media/android/src/main/jni/libyuv/CM_linux_packages.cmake","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":500,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindJPEG.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CPack.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CPackComponent.cmake","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Templates/CPackConfig.cmake.in","C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Templates/CPackConfig.cmake.in"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake","C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake","C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake","src/main/jni/libyuv/CMakeLists.txt","src/main/jni/libyuv/CM_linux_packages.cmake"]},{"isCMake":false,"isTemporary":true,"sources":[".externalNativeBuild/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeSystem.cmake",".externalNativeBuild/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".externalNativeBuild/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake",".externalNativeBuild/cmake/release/x86_64/CMakeFiles/feature_tests.c",".externalNativeBuild/cmake/release/x86_64/CMakeFiles/feature_tests.c",".externalNativeBuild/cmake/release/x86_64/CMakeFiles/feature_tests.c",".externalNativeBuild/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".externalNativeBuild/cmake/release/x86_64/CMakeFiles/feature_tests.cxx",".externalNativeBuild/cmake/release/x86_64/CMakeFiles/feature_tests.cxx",".externalNativeBuild/cmake/release/x86_64/CMakeFiles/feature_tests.cxx",".externalNativeBuild/cmake/release/x86_64/CMakeFiles/feature_tests.cxx",".externalNativeBuild/cmake/release/x86_64/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"C:/Users/admin/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"D:/myProject/qyx_flutter_media/android","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Release","projects":[{"buildDirectory":"D:/myProject/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64","name":"Project","sourceDirectory":"D:/myProject/qyx_flutter_media/android","targets":[{"artifacts":["D:/myProject/qyx_flutter_media/android/build/intermediates/cmake/release/obj/x86_64/libyuvutil.so"],"buildDirectory":"D:/myProject/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC  ","defines":["yuvutil_EXPORTS"],"includePath":[{"path":"D:/myProject/qyx_flutter_media/android/src/main/jni/libyuv/include"}],"isGenerated":false,"language":"CXX","sources":["src/main/jni/YuvJni.cpp"]}],"fullName":"libyuvutil.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-llog build\\libyuv.a -latomic -lm","linkerLanguage":"CXX","name":"yuvutil","sourceDirectory":"D:/myProject/qyx_flutter_media/android","sysroot":"C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["D:/myProject/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64/build/libyuv.a"],"buildDirectory":"D:/myProject/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64/build","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC  ","includePath":[{"path":"D:/myProject/qyx_flutter_media/android/src/main/jni/libyuv/include"}],"isGenerated":false,"language":"CXX","sources":["source/compare.cc","source/compare_common.cc","source/compare_gcc.cc","source/compare_msa.cc","source/compare_neon.cc","source/compare_neon64.cc","source/compare_win.cc","source/convert.cc","source/convert_argb.cc","source/convert_from.cc","source/convert_from_argb.cc","source/convert_jpeg.cc","source/convert_to_argb.cc","source/convert_to_i420.cc","source/cpu_id.cc","source/mjpeg_decoder.cc","source/mjpeg_validate.cc","source/planar_functions.cc","source/rotate.cc","source/rotate_any.cc","source/rotate_argb.cc","source/rotate_common.cc","source/rotate_gcc.cc","source/rotate_msa.cc","source/rotate_neon.cc","source/rotate_neon64.cc","source/rotate_win.cc","source/row_any.cc","source/row_common.cc","source/row_gcc.cc","source/row_msa.cc","source/row_neon.cc","source/row_neon64.cc","source/row_win.cc","source/scale.cc","source/scale_any.cc","source/scale_argb.cc","source/scale_common.cc","source/scale_gcc.cc","source/scale_msa.cc","source/scale_neon.cc","source/scale_neon64.cc","source/scale_win.cc","source/video_common.cc"]}],"fullName":"libyuv.a","linkerLanguage":"CXX","name":"yuv","sourceDirectory":"D:/myProject/qyx_flutter_media/android/src/main/jni/libyuv","sysroot":"C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["D:/myProject/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64/build/yuvconvert"],"buildDirectory":"D:/myProject/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64/build","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIE  ","includePath":[{"path":"D:/myProject/qyx_flutter_media/android/src/main/jni/libyuv/include"}],"isGenerated":false,"language":"CXX","sources":["util/yuvconvert.cc"]}],"fullName":"yuvconvert","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections","linkLanguageFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG","linkLibraries":"libyuv.a -latomic -lm","linkerLanguage":"CXX","name":"yuvconvert","sourceDirectory":"D:/myProject/qyx_flutter_media/android/src/main/jni/libyuv","sysroot":"C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"EXECUTABLE"},{"artifacts":["D:/myProject/qyx_flutter_media/android/build/intermediates/cmake/release/obj/x86_64/libyuv.so"],"buildDirectory":"D:/myProject/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64/build","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC  ","defines":["yuv_shared_EXPORTS"],"includePath":[{"path":"D:/myProject/qyx_flutter_media/android/src/main/jni/libyuv/include"}],"isGenerated":false,"language":"CXX","sources":["source/compare.cc","source/compare_common.cc","source/compare_gcc.cc","source/compare_msa.cc","source/compare_neon.cc","source/compare_neon64.cc","source/compare_win.cc","source/convert.cc","source/convert_argb.cc","source/convert_from.cc","source/convert_from_argb.cc","source/convert_jpeg.cc","source/convert_to_argb.cc","source/convert_to_i420.cc","source/cpu_id.cc","source/mjpeg_decoder.cc","source/mjpeg_validate.cc","source/planar_functions.cc","source/rotate.cc","source/rotate_any.cc","source/rotate_argb.cc","source/rotate_common.cc","source/rotate_gcc.cc","source/rotate_msa.cc","source/rotate_neon.cc","source/rotate_neon64.cc","source/rotate_win.cc","source/row_any.cc","source/row_common.cc","source/row_gcc.cc","source/row_msa.cc","source/row_neon.cc","source/row_neon64.cc","source/row_win.cc","source/scale.cc","source/scale_any.cc","source/scale_argb.cc","source/scale_common.cc","source/scale_gcc.cc","source/scale_msa.cc","source/scale_neon.cc","source/scale_neon64.cc","source/scale_win.cc","source/video_common.cc"]}],"fullName":"libyuv.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-latomic -lm","linkerLanguage":"CXX","name":"yuv_shared","sourceDirectory":"D:/myProject/qyx_flutter_media/android/src/main/jni/libyuv","sysroot":"C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"}]},{"buildDirectory":"D:/myProject/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64/build","name":"YUV","sourceDirectory":"D:/myProject/qyx_flutter_media/android/src/main/jni/libyuv","targets":[{"artifacts":["D:/myProject/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64/build/libyuv.a"],"buildDirectory":"D:/myProject/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64/build","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC  ","includePath":[{"path":"D:/myProject/qyx_flutter_media/android/src/main/jni/libyuv/include"}],"isGenerated":false,"language":"CXX","sources":["source/compare.cc","source/compare_common.cc","source/compare_gcc.cc","source/compare_msa.cc","source/compare_neon.cc","source/compare_neon64.cc","source/compare_win.cc","source/convert.cc","source/convert_argb.cc","source/convert_from.cc","source/convert_from_argb.cc","source/convert_jpeg.cc","source/convert_to_argb.cc","source/convert_to_i420.cc","source/cpu_id.cc","source/mjpeg_decoder.cc","source/mjpeg_validate.cc","source/planar_functions.cc","source/rotate.cc","source/rotate_any.cc","source/rotate_argb.cc","source/rotate_common.cc","source/rotate_gcc.cc","source/rotate_msa.cc","source/rotate_neon.cc","source/rotate_neon64.cc","source/rotate_win.cc","source/row_any.cc","source/row_common.cc","source/row_gcc.cc","source/row_msa.cc","source/row_neon.cc","source/row_neon64.cc","source/row_win.cc","source/scale.cc","source/scale_any.cc","source/scale_argb.cc","source/scale_common.cc","source/scale_gcc.cc","source/scale_msa.cc","source/scale_neon.cc","source/scale_neon64.cc","source/scale_win.cc","source/video_common.cc"]}],"fullName":"libyuv.a","linkerLanguage":"CXX","name":"yuv","sourceDirectory":"D:/myProject/qyx_flutter_media/android/src/main/jni/libyuv","sysroot":"C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["D:/myProject/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64/build/yuvconvert"],"buildDirectory":"D:/myProject/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64/build","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIE  ","includePath":[{"path":"D:/myProject/qyx_flutter_media/android/src/main/jni/libyuv/include"}],"isGenerated":false,"language":"CXX","sources":["util/yuvconvert.cc"]}],"fullName":"yuvconvert","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections","linkLanguageFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG","linkLibraries":"libyuv.a -latomic -lm","linkerLanguage":"CXX","name":"yuvconvert","sourceDirectory":"D:/myProject/qyx_flutter_media/android/src/main/jni/libyuv","sysroot":"C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"EXECUTABLE"},{"artifacts":["D:/myProject/qyx_flutter_media/android/build/intermediates/cmake/release/obj/x86_64/libyuv.so"],"buildDirectory":"D:/myProject/qyx_flutter_media/android/.externalNativeBuild/cmake/release/x86_64/build","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC  ","defines":["yuv_shared_EXPORTS"],"includePath":[{"path":"D:/myProject/qyx_flutter_media/android/src/main/jni/libyuv/include"}],"isGenerated":false,"language":"CXX","sources":["source/compare.cc","source/compare_common.cc","source/compare_gcc.cc","source/compare_msa.cc","source/compare_neon.cc","source/compare_neon64.cc","source/compare_win.cc","source/convert.cc","source/convert_argb.cc","source/convert_from.cc","source/convert_from_argb.cc","source/convert_jpeg.cc","source/convert_to_argb.cc","source/convert_to_i420.cc","source/cpu_id.cc","source/mjpeg_decoder.cc","source/mjpeg_validate.cc","source/planar_functions.cc","source/rotate.cc","source/rotate_any.cc","source/rotate_argb.cc","source/rotate_common.cc","source/rotate_gcc.cc","source/rotate_msa.cc","source/rotate_neon.cc","source/rotate_neon64.cc","source/rotate_win.cc","source/row_any.cc","source/row_common.cc","source/row_gcc.cc","source/row_msa.cc","source/row_neon.cc","source/row_neon64.cc","source/row_win.cc","source/scale.cc","source/scale_any.cc","source/scale_argb.cc","source/scale_common.cc","source/scale_gcc.cc","source/scale_msa.cc","source/scale_neon.cc","source/scale_neon64.cc","source/scale_win.cc","source/video_common.cc"]}],"fullName":"libyuv.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-latomic -lm","linkerLanguage":"CXX","name":"yuv_shared","sourceDirectory":"D:/myProject/qyx_flutter_media/android/src/main/jni/libyuv","sysroot":"C:/Users/admin/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

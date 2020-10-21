@@ -1,35 +1,38 @@
 {
   "buildFiles": [
-    "/Users/zuoshuai/qyx_flutter_media/android/CMakeLists.txt",
-    "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/CMakeLists.txt"
+    "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "D:\\myProject\\qyx_flutter_media\\android\\CMakeLists.txt",
+    "D:\\myProject\\qyx_flutter_media\\android\\src\\main\\jni\\libyuv\\CMakeLists.txt",
+    "D:\\myProject\\qyx_flutter_media\\android\\src\\main\\jni\\libyuv\\CM_linux_packages.cmake"
   ],
   "cleanCommands": [
-    "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+    "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\myProject\\qyx_flutter_media\\android\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
   ],
   "libraries": {
     "yuvconvert-Release-armeabi-v7a": {
       "artifactName": "yuvconvert",
-      "buildCommand": "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/armeabi-v7a --target yuvconvert",
+      "buildCommand": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\myProject\\qyx_flutter_media\\android\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target yuvconvert",
       "abi": "armeabi-v7a",
-      "output": "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/armeabi-v7a/build/yuvconvert"
+      "output": "D:\\myProject\\qyx_flutter_media\\android\\.externalNativeBuild\\cmake\\release\\armeabi-v7a\\build\\yuvconvert"
     },
     "yuvutil-Release-armeabi-v7a": {
       "artifactName": "yuvutil",
-      "buildCommand": "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/armeabi-v7a --target yuvutil",
+      "buildCommand": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\myProject\\qyx_flutter_media\\android\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target yuvutil",
       "abi": "armeabi-v7a",
-      "output": "/Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/armeabi-v7a/libyuvutil.so"
+      "output": "D:\\myProject\\qyx_flutter_media\\android\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libyuvutil.so"
     },
     "yuv_shared-Release-armeabi-v7a": {
       "artifactName": "yuv_shared",
-      "buildCommand": "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/armeabi-v7a --target yuv_shared",
+      "buildCommand": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\myProject\\qyx_flutter_media\\android\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target yuv_shared",
       "abi": "armeabi-v7a",
-      "output": "/Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/armeabi-v7a/libyuv.so"
+      "output": "D:\\myProject\\qyx_flutter_media\\android\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libyuv.so"
     },
     "yuv-Release-armeabi-v7a": {
       "artifactName": "yuv",
-      "buildCommand": "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/armeabi-v7a --target yuv",
+      "buildCommand": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\myProject\\qyx_flutter_media\\android\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target yuv",
       "abi": "armeabi-v7a",
-      "output": "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/armeabi-v7a/build/libyuv.a"
+      "output": "D:\\myProject\\qyx_flutter_media\\android\\.externalNativeBuild\\cmake\\release\\armeabi-v7a\\build\\libyuv.a"
     }
   }
 }

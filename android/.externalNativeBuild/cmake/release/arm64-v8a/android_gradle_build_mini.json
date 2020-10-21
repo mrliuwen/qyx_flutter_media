@@ -1,35 +1,38 @@
 {
   "buildFiles": [
-    "/Users/zuoshuai/qyx_flutter_media/android/CMakeLists.txt",
-    "/Users/zuoshuai/qyx_flutter_media/android/src/main/jni/libyuv/CMakeLists.txt"
+    "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "D:\\myProject\\qyx_flutter_media\\android\\CMakeLists.txt",
+    "D:\\myProject\\qyx_flutter_media\\android\\src\\main\\jni\\libyuv\\CMakeLists.txt",
+    "D:\\myProject\\qyx_flutter_media\\android\\src\\main\\jni\\libyuv\\CM_linux_packages.cmake"
   ],
   "cleanCommands": [
-    "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+    "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\myProject\\qyx_flutter_media\\android\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
   ],
   "libraries": {
     "yuv_shared-Release-arm64-v8a": {
       "artifactName": "yuv_shared",
-      "buildCommand": "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a --target yuv_shared",
+      "buildCommand": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\myProject\\qyx_flutter_media\\android\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target yuv_shared",
       "abi": "arm64-v8a",
-      "output": "/Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuv.so"
+      "output": "D:\\myProject\\qyx_flutter_media\\android\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libyuv.so"
     },
     "yuv-Release-arm64-v8a": {
       "artifactName": "yuv",
-      "buildCommand": "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a --target yuv",
+      "buildCommand": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\myProject\\qyx_flutter_media\\android\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target yuv",
       "abi": "arm64-v8a",
-      "output": "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a/build/libyuv.a"
+      "output": "D:\\myProject\\qyx_flutter_media\\android\\.externalNativeBuild\\cmake\\release\\arm64-v8a\\build\\libyuv.a"
     },
     "yuvutil-Release-arm64-v8a": {
       "artifactName": "yuvutil",
-      "buildCommand": "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a --target yuvutil",
+      "buildCommand": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\myProject\\qyx_flutter_media\\android\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target yuvutil",
       "abi": "arm64-v8a",
-      "output": "/Users/zuoshuai/qyx_flutter_media/example/build/qyx_flutter_media/intermediates/cmake/release/obj/arm64-v8a/libyuvutil.so"
+      "output": "D:\\myProject\\qyx_flutter_media\\android\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libyuvutil.so"
     },
     "yuvconvert-Release-arm64-v8a": {
       "artifactName": "yuvconvert",
-      "buildCommand": "/Users/zuoshuai/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a --target yuvconvert",
+      "buildCommand": "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\myProject\\qyx_flutter_media\\android\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target yuvconvert",
       "abi": "arm64-v8a",
-      "output": "/Users/zuoshuai/qyx_flutter_media/android/.externalNativeBuild/cmake/release/arm64-v8a/build/yuvconvert"
+      "output": "D:\\myProject\\qyx_flutter_media\\android\\.externalNativeBuild\\cmake\\release\\arm64-v8a\\build\\yuvconvert"
     }
   }
 }

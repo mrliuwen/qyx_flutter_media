@@ -96,7 +96,7 @@ public class QyxFlutterMediaPlugin implements MethodCallHandler,PluginRegistry.A
                                         Bundle bundle = new Bundle();
                                         bundle.putSerializable("size", size);
                                         getImageByCamera.putExtras(bundle);
-                                        registrarG.activity().startActivityForResult(getImageByCamera,0);
+                                        registrarG.activity().startActivityForResult(getImageByCamera,10001);
                                     }
                                 });
                             }
@@ -129,7 +129,7 @@ public class QyxFlutterMediaPlugin implements MethodCallHandler,PluginRegistry.A
     @Override
     public boolean onActivityResult(int requestCode, int resultCode, Intent intent) {
         Log.i("onActivityResult-----","onActivityResultdddd");
-        if(resultCode == RESULT_OK) {
+        if(resultCode == RESULT_OK&&requestCode==10001) {
             final String recorderPath =  intent.getStringExtra("recorderPath");
             final String photoPath =  intent.getStringExtra("photoPath");
             takeVideoResult.success(new HashMap(){
