@@ -54,65 +54,76 @@ public class QyxFlutterMediaPlugin implements MethodCallHandler, PluginRegistry.
         if (call.method.equals("getPlatformVersion")) {
             result.success("Android " + android.os.Build.VERSION.RELEASE);
         } else if (call.method.equals("takeVideo")) {
-            takeVideo(result);
+            takeVideo(call,result);
         } else {
             result.notImplemented();
         }
     }
 
-    public void takeVideo(Result result) {
+    PermissionListener listener;
+
+    public void takeVideo(final MethodCall call, Result result) {
         takeVideoResult = result;
         registrarG.addRequestPermissionsResultListener(delegate);
-
-        delegate.requestPermissions(new PermissionListener() {
-            @Override
-            public void onRequestPermissionsResult(boolean permissionGranted) {
-                if (!permissionGranted) {
-                    return;
-                }
-                delegate.requestPermissions(Manifest.permission.WRITE_EXTERNAL_STORAGE, new PermissionListener() {
-                    @Override
-                    public void onRequestPermissionsResult(boolean permissionGranted) {
-                        if (!permissionGranted) {
-                            return;
-                        }
-                        delegate.requestPermissions(Manifest.permission.RECORD_AUDIO, new PermissionListener() {
-                            @Override
-                            public void onRequestPermissionsResult(boolean permissionGranted) {
-                                if (!permissionGranted) {
-                                    return;
-                                }
-                                delegate.requestPermissions(Manifest.permission.READ_EXTERNAL_STORAGE, new PermissionListener() {
-                                    @Override
-                                    public void onRequestPermissionsResult(boolean permissionGranted) {
-                                        if (!permissionGranted) {
-                                            return;
-                                        }
-                                        ArrayList<ImageSize> size = new ArrayList<ImageSize>();
-                                        Intent getImageByCamera = new Intent(
-                                                registrarG.activity(), CameraActivity.class);
-                                        size.add(new ImageSize(240, 240, ".small"));
-                                        size.add(new ImageSize(720, 720, ""));
-                                        getImageByCamera.putExtra("supportType", 0);
-                                        Bundle bundle = new Bundle();
-                                        bundle.putSerializable("size", size);
-                                        getImageByCamera.putExtras(bundle);
-                                        registrarG.activity().startActivityForResult(getImageByCamera, 10001);
-                                    }
-                                });
-                            }
-                        });
+        if (listener == null) {
+            listener = new PermissionListener() {
+                @Override
+                public void onRequestPermissionsResult(boolean permissionGranted) {
+                    if (!permissionGranted) {
+                        return;
                     }
-                });
-            }
-        });
+                    delegate.requestPermissions(Manifest.permission.WRITE_EXTERNAL_STORAGE, new PermissionListener() {
+                        @Override
+                        public void onRequestPermissionsResult(boolean permissionGranted) {
+                            if (!permissionGranted) {
+                                return;
+                            }
+                            delegate.requestPermissions(Manifest.permission.RECORD_AUDIO, new PermissionListener() {
+                                @Override
+                                public void onRequestPermissionsResult(boolean permissionGranted) {
+                                    if (!permissionGranted) {
+                                        return;
+                                    }
+                                    delegate.requestPermissions(Manifest.permission.READ_EXTERNAL_STORAGE, new PermissionListener() {
+                                        @Override
+                                        public void onRequestPermissionsResult(boolean permissionGranted) {
+                                            if (!permissionGranted) {
+                                                return;
+                                            }
+                                            if (listener == null) {
+                                                return;
+                                            }
+                                            if (call.method.equals("takeVideo")){
+                                                Log.e("call.method====",call.method);
+                                                ArrayList<ImageSize> size = new ArrayList<ImageSize>();
+                                                Intent getImageByCamera = new Intent(
+                                                        registrarG.activity(), CameraActivity.class);
+                                                size.add(new ImageSize(240, 240, ".small"));
+                                                size.add(new ImageSize(720, 720, ""));
+                                                getImageByCamera.putExtra("supportType", 0);
+                                                Bundle bundle = new Bundle();
+                                                bundle.putSerializable("size", size);
+                                                getImageByCamera.putExtras(bundle);
+                                                registrarG.activity().startActivityForResult(getImageByCamera, 10001);
+                                                listener = null;
+                                            }
+                                        }
+                                    });
+                                }
+                            });
+                        }
+                    });
+                }
+            };
+        }
+        delegate.requestPermissions(listener);
 
     }
 
 
     @Override
     public boolean onActivityResult(int requestCode, int resultCode, Intent intent) {
-        Log.i("onActivityResult-----", "onActivityResultdddd");
+
         if (resultCode == RESULT_OK && requestCode == 10001) {
             final String recorderPath = intent.getStringExtra("recorderPath");
             final String photoPath = intent.getStringExtra("photoPath");
