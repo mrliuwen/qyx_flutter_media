@@ -28,11 +28,12 @@ import static android.app.Activity.RESULT_OK;
 /**
  * QyxFlutterMediaPlugin
  */
-public class QyxFlutterMediaPlugin implements MethodCallHandler,PluginRegistry.ActivityResultListener {
+public class QyxFlutterMediaPlugin implements MethodCallHandler, PluginRegistry.ActivityResultListener {
     private static Registrar registrarG;
     private static PermissionDelegate delegate;
 
     private static Result takeVideoResult;
+
     /**
      * Plugin registration.
      */
@@ -60,31 +61,31 @@ public class QyxFlutterMediaPlugin implements MethodCallHandler,PluginRegistry.A
     }
 
     public void takeVideo(Result result) {
-        takeVideoResult =  result;
+        takeVideoResult = result;
         registrarG.addRequestPermissionsResultListener(delegate);
 
         delegate.requestPermissions(new PermissionListener() {
             @Override
             public void onRequestPermissionsResult(boolean permissionGranted) {
-                if(!permissionGranted) {
+                if (!permissionGranted) {
                     return;
                 }
                 delegate.requestPermissions(Manifest.permission.WRITE_EXTERNAL_STORAGE, new PermissionListener() {
                     @Override
                     public void onRequestPermissionsResult(boolean permissionGranted) {
-                        if(!permissionGranted) {
+                        if (!permissionGranted) {
                             return;
                         }
                         delegate.requestPermissions(Manifest.permission.RECORD_AUDIO, new PermissionListener() {
                             @Override
                             public void onRequestPermissionsResult(boolean permissionGranted) {
-                                if(!permissionGranted) {
+                                if (!permissionGranted) {
                                     return;
                                 }
                                 delegate.requestPermissions(Manifest.permission.READ_EXTERNAL_STORAGE, new PermissionListener() {
                                     @Override
                                     public void onRequestPermissionsResult(boolean permissionGranted) {
-                                        if(!permissionGranted) {
+                                        if (!permissionGranted) {
                                             return;
                                         }
                                         ArrayList<ImageSize> size = new ArrayList<ImageSize>();
@@ -92,11 +93,11 @@ public class QyxFlutterMediaPlugin implements MethodCallHandler,PluginRegistry.A
                                                 registrarG.activity(), CameraActivity.class);
                                         size.add(new ImageSize(240, 240, ".small"));
                                         size.add(new ImageSize(720, 720, ""));
-                                        getImageByCamera.putExtra("supportType",0);
+                                        getImageByCamera.putExtra("supportType", 0);
                                         Bundle bundle = new Bundle();
                                         bundle.putSerializable("size", size);
                                         getImageByCamera.putExtras(bundle);
-                                        registrarG.activity().startActivityForResult(getImageByCamera,10001);
+                                        registrarG.activity().startActivityForResult(getImageByCamera, 10001);
                                     }
                                 });
                             }
@@ -106,44 +107,28 @@ public class QyxFlutterMediaPlugin implements MethodCallHandler,PluginRegistry.A
             }
         });
 
-
-
-//    PermissionsUtil.requestPermissions(registrarG.activity(), registrarG.activity().getResources().getString(R.string.permisssion_camera_audio), new PermissionsUtil.PermisionResultListener() {
-//      @Override
-//      public void granted() {
-//        ArrayList<ImageSize> size = new ArrayList<ImageSize>();
-//        Intent getImageByCamera = new Intent(
-//                registrarG.activity(), CameraActivity.class);
-//        size.add(new ImageSize(240, 240, ".small"));
-//        size.add(new ImageSize(720, 720, ""));
-//        Bundle bundle = new Bundle();
-//        bundle.putSerializable("size", size);
-//        getImageByCamera.putExtras(bundle);
-//        registrarG.activity().startActivity(getImageByCamera);
-//      }
-//    }, Manifest.permission.CAMERA, Manifest.permission.RECORD_AUDIO);
-
     }
 
 
     @Override
     public boolean onActivityResult(int requestCode, int resultCode, Intent intent) {
-        Log.i("onActivityResult-----","onActivityResultdddd");
-        if(resultCode == RESULT_OK&&requestCode==10001) {
-            final String recorderPath =  intent.getStringExtra("recorderPath");
-            final String photoPath =  intent.getStringExtra("photoPath");
-            takeVideoResult.success(new HashMap(){
+        Log.i("onActivityResult-----", "onActivityResultdddd");
+        if (resultCode == RESULT_OK && requestCode == 10001) {
+            final String recorderPath = intent.getStringExtra("recorderPath");
+            final String photoPath = intent.getStringExtra("photoPath");
+            takeVideoResult.success(new HashMap() {
                 {
-                    put("photo_path",photoPath);
-                    put("video_path",recorderPath);
+                    put("photo_path", photoPath);
+                    put("video_path", recorderPath);
                 }
             });
+            return true;
         }
-        return true;
+        return false;
     }
 
     public String saveCropBitmap(Bitmap bmp) {
-        if(bmp == null) {
+        if (bmp == null) {
             return "";
         } else {
             File file = null;
@@ -152,18 +137,19 @@ public class QyxFlutterMediaPlugin implements MethodCallHandler,PluginRegistry.A
             FileOutputStream stream = null;
 
             try {
-                file = new  File(getAlbumDir(), "cover_tmp.jpg");
+                file = new File(getAlbumDir(), "cover_tmp.jpg");
                 stream = new FileOutputStream(file);
             } catch (IOException var7) {
                 var7.printStackTrace();
             }
 
-            return bmp.compress(format, quality, stream)?file.getAbsolutePath():"";
+            return bmp.compress(format, quality, stream) ? file.getAbsolutePath() : "";
         }
     }
+
     public File getAlbumDir() {
-        File dir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),  "/big");
-        if(!dir.exists()) {
+        File dir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), "/big");
+        if (!dir.exists()) {
             dir.mkdirs();
         }
 
